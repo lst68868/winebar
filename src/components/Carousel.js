@@ -1,4 +1,5 @@
-import React from 'react'
+import React, { useContext } from 'react'
+import { ThemeContext } from '../context/ThemeContext'
 import redImage from '../assets/carousel_imgs/vino-red-wine-glass.jpeg'
 import whiteImage from '../assets/carousel_imgs/kira-white-wine-glass.jpeg'
 import roseImage from '../assets/carousel_imgs/Rose Glass For Horizontal Scroll.png'
@@ -9,8 +10,9 @@ import sparklingImage from '../assets/carousel_imgs/PorshaSmokeChmpgnFluteROF21.
 import '../styles/carousel.css'
 
 function Carousel() {
+  const {theme} = useContext(ThemeContext)
   return (
-    <>
+    <div>
       <h2>Varieties</h2>
       <div className="carousel-container">
         <div className="carousel-entry" id="carousel-red">
@@ -38,7 +40,7 @@ function Carousel() {
           <h3 className="carousel-title">Dessert</h3>
         </div>
       </div>
-    </>
+    </div>
   )
 }
 
