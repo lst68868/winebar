@@ -29,7 +29,8 @@ h2 {
   font-size: 24;
   font-weight: 600;
   letter-spacing: -0.165px;
-  margin-bottom: 9px;
+  padding-top: 9px;
+  margin: 0 0 9px 0;
   transition: 0.4s;
 }
 
