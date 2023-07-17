@@ -6,5 +6,6 @@ body {
 }
 
 h1 {
-  font-family: "Amiko-Regular";
+  font-family: "Amiko-SemiBold";
+  color: red;
 }
