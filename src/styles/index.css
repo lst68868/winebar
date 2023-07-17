@@ -5,7 +5,13 @@ body {
   font-family: "Cocogoose Pro Semilight";
 }
 
-h1 {
-  font-family: "Amiko-SemiBold";
-  color: red;
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
 }
+
+.App.dark {
+  background-color: black;
+  transition: 0.4s;
+}
+
