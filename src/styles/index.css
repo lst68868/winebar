@@ -10,7 +10,9 @@
   --rose: #AA0028;
   --grey: #D9D9D9;
   --dkgrey: #7D7D7D;
-
+  /* Dark mode */
+  --bkgrey: #635457;
+  --altbkgrey: #302427;
 }
 
 .carousel-container {
@@ -100,3 +102,17 @@ code {
   background-color: white;
   transition: 0.4s;
 }
+
+/* DARK MODE */
+/* #table-cell .dark, #split-cell .dark  {
+  background-color: var(--bkgrey);
+}
+
+#table-cell #pink1 .dark, { 
+  background-color: var(--altbkgrey);
+} */
+
+#pink1 .dark, #pink2 .dark, #pink3 .dark {
+    background-color: var(--bkgrey) !important;
+}
+
