@@ -4,8 +4,8 @@ function SplitCard() {
   return (
     <>
       {/* // Missing SF Pro font */}
-      <h2 className="cocogoose text-rose text-3xl ml-6 w-9/12 mb-3">Sommelier Selected</h2>
-      <div id="split-cell" className="h-316 flex justify-center items-center flex-wrap mb-8">
+      <h2 className="cocogoose text-rose text-xl ml-6 w-9/12 mb-3">Sommelier Selected</h2>
+      <div id="split-cell" className="h-316 text-left  flex-wrap mb-8">
         <div className="flex justify-start items-start">
           <div className="halves w-1/2 bg-white shadow-lg rounded-lg">
             <div className="w-36 dark dark pink-bg mx-auto">

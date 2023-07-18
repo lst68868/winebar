@@ -4,8 +4,8 @@ function TableCellCard() {
   return (
     <>
       {/* // Missing SF Pro font */}
-      <h2 className="cocogoose text-rose text-3xl ml-6 w-9/12 mb-3">Popular</h2>
-      <div id="table-cell" className="w-361 alt-grey dark bg-white rounded-lg shadow-lg h-390 flex justify-start items-start flex-wrap mb-8">
+      <h2 className="cocogoose text-rose text-xl ml-6 w-9/12 mb-3">Popular</h2>
+      <div id="table-cell" className="text-left w-361 alt-grey dark bg-white rounded-lg shadow-lg h-390 flex justify-start items-start flex-wrap mb-8">
         <div className="flex justify-start items-start custom-border">
           <div id="pink1" className="w-2/5 rounded-lg dark pink-bg my-3 ml-3">
             <img src="assets/Tri-card-wine_1.png" className="mx-auto w-auto h-auto p-4" />
