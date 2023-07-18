@@ -1,3 +1,4 @@
+
 @font-face {
   font-family: 'COCOGOOSE';
   src: url('../assets/fonts/Cocogoose\ Pro\ SemiLight\ Trial.ttf');
@@ -19,6 +20,7 @@
 .carousel-container {
 overflow-x: scroll;
 display: flex;
+margin-left: 20px;
 }
 
 h2 {
@@ -31,6 +33,7 @@ h2 {
   padding-top: 9px;
   margin: 0 0 9px 0;
   transition: 0.4s;
+  margin-left: 20px;
 }
 
 .carousel-title {
