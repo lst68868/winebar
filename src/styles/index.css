@@ -4,6 +4,7 @@
 @tailwind utilities;
 
 :root {
+  --ltpink: #FFF9F7;
   --pink:  #FFF0EE;
   --rose: #AA0028;
   --grey: #D9D9D9;
@@ -39,7 +40,7 @@ h1 {
 }
 
 #root{
-  background-color: var(--pink);
+  background-color: var(--ltpink);
   min-height: 100vh;
 }
 
@@ -72,6 +73,10 @@ h1 {
 
 #split-cell .halves {
   max-width: 170px;
+}
+
+footer button {
+  border: 1px solid var(--rose);
 }
 
 

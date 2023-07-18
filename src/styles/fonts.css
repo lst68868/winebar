@@ -1,19 +1,19 @@
 @font-face {
     font-family: "Cocogoose Pro Semilight-trial";
-    src: url("/public/assets/Cocogoose-Pro-Semilight-trial.ttf") format("truetype");
+    src: url("/public/assets/font-family/Cocogoose\ Pro\ Semilight-trial.ttf") format("truetype");
 }
 
 @font-face {
     font-family: "Amiko-Regular";
-    src: url("/public/assets/Amiko-Regular.ttf") format("truetype");
+    src: url("/public/assets/font-family/Amiko-Regular.ttf") format("truetype");
 }
 
 @font-face {
     font-family: "Amiko-Bold";
-    src: url("/public/assets/Amiko-Bold.ttf") format("truetype");
+    src: url("/public/assets/font-family/Amiko-Bold.ttf") format("truetype");
 }
 
 @font-face {
     font-family: "Amiko-SemiBold";
-    src: url("/public/assets/Amiko-SemiBold.ttf") format("truetype");
+    src: url("/public/assets/font-family/Amiko-SemiBold.ttf") format("truetype");
 }
