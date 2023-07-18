@@ -1,3 +1,4 @@
+import "../styles/App.css";
 import { Routes, Route } from "react-router-dom";
 import React, { useContext } from "react";
 import Navbar from "./Navbar";

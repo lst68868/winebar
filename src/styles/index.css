@@ -3,12 +3,18 @@
 @tailwind components;
 @tailwind utilities;
 
+
 :root {
   --pink:  #FFF0EE;
   --rose: #AA0028;
   --grey: #D9D9D9;
   --dkgrey: #7D7D7D;
 
+}
+
+.carousel-container {
+  overflow-x: scroll;
+  width: auto;
 }
 
 /* fonts */
@@ -85,3 +91,7 @@ code {
   transition: 0.4s;
 }
 
+.App {
+  background-color: white;
+  transition: 0.4s;
+}
