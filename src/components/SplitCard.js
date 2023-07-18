@@ -8,8 +8,8 @@ function SplitCard() {
       <div id="split-cell" className="h-316 flex justify-center items-center flex-wrap mb-8">
         <div className="flex justify-start items-start">
           <div className="halves w-1/2 bg-white shadow-lg rounded-lg">
-            <div className="w-36 pink-bg mx-auto">
-              <img src="assets/Alpamanta _Natal_ Malbec2022.png" className="mx-auto mt-3 w-auto h-auto p-4 pink-bg" />
+            <div className="w-36 dark dark pink-bg mx-auto">
+              <img src="assets/Alpamanta _Natal_ Malbec2022.png" className="mx-auto mt-3 w-auto h-auto p-4 dark pink-bg" />
             </div>
             <p className="text-base mt-3 ml-3 amiko-bold">Natal Malbec</p>
             <p className="text-sm amiko-reg ml-3 text-dkgrey">Mendoza, Argentina 2022</p>
@@ -20,8 +20,8 @@ function SplitCard() {
           </div>
 
           <div className="halves w-1/2 bg-white shadow-lg rounded-lg ml-4">
-            <div className="w-36 pink-bg mx-auto">
-              <img src="assets/ORGANIC_Pinot_Grigio_2020.png" className="mx-auto mt-3 w-auto h-auto p-4 pink-bg" />
+            <div className="w-36 dark pink-bg mx-auto">
+              <img src="assets/ORGANIC_Pinot_Grigio_2020.png" className="mx-auto mt-3 w-auto h-auto p-4 dark pink-bg" />
             </div>
             <p className="text-base mt-3 ml-3 amiko-bold">Domini Del Leone Pinot Grigio</p>
             <p className="text-sm amiko-reg ml-3 text-dkgrey">Italy, 2022</p>
