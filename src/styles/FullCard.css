@@ -84,7 +84,7 @@
     line-height: normal;
     letter-spacing: -0.165px;
     align-items: flex-start;
-    padding-left: 2px;
+    padding-left: 10px;
   }
   
   .paragraph-container {
@@ -95,7 +95,7 @@
     font-weight: 400;
     line-height: normal;
     letter-spacing: -0.165px;
-    padding-left: 0px;
+    padding-left: 10px;
 
   /* Add this line to remove the indentation */
   }
@@ -116,7 +116,7 @@
   .button-container {
   
         margin-top: 10px;
-        padding-left: 0px;
+        padding-left: 10px;
         padding-bottom: 20px; /* Add spacing between each container */
       }
       
