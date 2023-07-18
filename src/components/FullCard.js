@@ -6,7 +6,7 @@ function FullCard() {
   return (
     <div classname="m-auto drop-shadow-md">
       <h2>Seasonal</h2>
-      <div className="m-4 text-left">
+      <div className="m-4 bg-white drop-shadow-md rounded-md text-left">
         <div className="image-container">
           <img src={Sparkling} alt="Sparkling" />
         </div>
