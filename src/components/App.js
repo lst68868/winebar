@@ -3,6 +3,7 @@ import Carousel from './Carousel'
 import Switch from './Switch'
 import { ThemeContext } from '../context/ThemeContext'
 import { useContext } from 'react'
+import FullCard from './FullCard'
 
 function App() {
   const {theme} = useContext(ThemeContext)
@@ -10,6 +11,7 @@ function App() {
     <div className={`App ${theme}`}>
       <Carousel />
       <Switch />
+      <FullCard />
     </div>
   )
 }
