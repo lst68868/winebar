@@ -9,9 +9,11 @@ import logo from '../assets/Winebar-Logo.png'
 function Navbar() {
   const { theme } = useContext(ThemeContext)
   return (
-    <div className="flex justify-between items-center px-4 py-2">
+    // <div className="flex justify-between items-center px-4 py-2">
+    <div className="w-full flex justify-between items-center px-4 py-2">
+
       <Link to="/">
-        <img className='logo'
+        <img className='w-1/2 h-auto'
           src={
             theme == 'dark'
               ? logoDarkMode
