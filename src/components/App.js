@@ -1,15 +1,24 @@
-import React from 'react';
 import '../styles/App.css';
-
-import Navbar from './Navbar'; // Update this to match the actual path to your Navbar.js file
-
+import { Routes, Route } from "react-router-dom";
+import React, { useContext } from "react";
+import Navbar from "./Navbar";
+import Footer from "./Footer";
+import LandingPage from "../pages/LandingPage";
+import Switch from "./Switch";
+import { ThemeContext } from "../context/ThemeContext";
 function App() {
+  const { theme } = useContext(ThemeContext);
   return (
-    <div className="App">
-      <Navbar />
-      {/* Your other components here */}
-    </div>
+    <>
+      <div className={`App ${theme}`}>
+        <Navbar />
+        <Routes>
+          <Route path="/" element={<LandingPage />} />
+        </Routes>
+        <Switch />
+      </div>
+      <Footer />
+    </>
   );
 }
-
 export default App;
