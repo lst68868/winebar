@@ -1,13 +1,16 @@
-import React from 'react';
+import React from "react";
+import { Link} from 'react-router-dom';
 import '../styles/Navbar.css';
-import logo from '../../src/assets/logo.png'
-const Navbar = () => {
+import Switch from "./Switch";
+
+
+function Navbar() {
   return (
-    <nav className="navbar">
-       <img src={logo} alt="Logo" />
-      <button className="toggle-button"></button>
-    </nav>
+    <div className="flex justify-between items-center px-4 py-2">
+  <Link to="/"><img src="assets/grape-escape-logo.png"/></Link>
+  <Switch />
+  </div>
   );
-};
+}
 
 export default Navbar;
