@@ -2,8 +2,10 @@
     display: flex;
     flex-direction: column;
     align-items: flex-start;
-    border-radius: 10px; 
-    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2)
+    border-radius: 10px;
+    width: 363px;
+    height: 370px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
   }
 
   .dark .container {
@@ -15,13 +17,15 @@
   
   .image-container {
     width: 100%;
-    height: 65%;
+    height: 85%;
+    border-radius: 10px; 
   }
   
   img {
-    width: 90%;
+    width: 100%;
     height: 100%;
     object-fit: cover;
+    border-radius: 10px 10px 0 0;
   }
   
   .content-container {
@@ -44,9 +48,27 @@
     font-weight: 600;
     line-height: normal;
     letter-spacing: -0.165px;
-    padding-left: 20px;
+    padding-left: 10px;
     padding-bottom: 10px;
   }
+
+.dark .header-container{
+    display: flex;
+    align-items: flex-start;
+    width: 361px;
+    height: 32px;
+    flex-direction: column;
+    flex-shrink: 0;
+    color: var(--dark-mode-button-pink, #FF6C8F);
+    font-family: "COCOGOOSE";
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    letter-spacing: -0.165px;
+    padding-left: 20px;
+    padding-bottom: 10px;
+}
   
   
   
@@ -74,8 +96,20 @@
     line-height: normal;
     letter-spacing: -0.165px;
     padding-left: 20px;
-    margin: 10px;
+
   /* Add this line to remove the indentation */
+  }
+
+  .dark .paragraph-container{
+    color: #FFF;
+    font-family: Amiko;
+    font-size: 10px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    letter-spacing: -0.165px;
+    padding-left: 20px;
+
   }
   
   
