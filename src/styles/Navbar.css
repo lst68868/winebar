@@ -1,0 +1,42 @@
+.navbar {
+    width: 393px; /* Setting a fixed width */
+    height: 118px;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    position: sticky;
+    top: 0;
+    background: var(--site-background-pink, #FFF9F7); /* Setting the background color */
+    flex-shrink: 0; /* Preventing the navbar from shrinking if space is limited */
+    padding: 0 20px;
+}
+
+
+.logo {
+    /* Add your logo styles here */
+    margin-right: 20px; /* Add some space between logo and title */
+}
+
+.titlecard {
+    display: flex;
+    width: auto; /* Allowing the title to adapt its width */
+    height: 36px;
+    flex-direction: column;
+    justify-content: flex-end;
+    flex-shrink: 0;
+    color: var(--light-mode-button-pink, #AA0028);
+    font-family: Cocogoose;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    letter-spacing: -0.165px;
+}
+
+.toggle-button {
+    width: 30px;
+    height: 30px;
+    background: #fff;
+    border-radius: 50%;
+    margin-left: auto; /* Pushing the button to the right */
+}
