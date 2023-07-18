@@ -1,13 +1,13 @@
-import React from "react";
-import { Link} from 'react-router-dom';
-
-
-function Navbar() {
+import React from 'react';
+import '../styles/Navbar.css';
+import logo from '../../src/assets/logo.png'
+const Navbar = () => {
   return (
-  <>
-  <Link to="/"><img src="assets/grape-escape-logo.png"/></Link>
-  </>
-  )
-}
+    <nav className="navbar">
+       <img src={logo} alt="Logo" />
+      <button className="toggle-button"></button>
+    </nav>
+  );
+};
 
 export default Navbar;
