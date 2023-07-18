@@ -1,0 +1,51 @@
+@font-face {
+  font-family: 'COCOGOOSE';
+  src: url('../assets/fonts/Cocogoose\ Pro\ SemiLight\ Trial.ttf');
+}
+.dark h2 {
+  color: #FF6C8F;
+  transition: 0.4s;
+}
+
+ .dark .carousel-title {
+  color: white;
+  transition: 0.4s;
+}
+
+.carousel-entry {
+  margin-right: 20px;
+}
+
+
+.carousel-container {
+overflow-x: scroll;
+display: flex;
+}
+
+h2 {
+  font-family: cocogoose;
+  text-align: left;
+  color: #AA0028;
+  font-size: 24;
+  font-weight: 600;
+  letter-spacing: -0.165px;
+  padding-top: 9px;
+  margin: 0 0 9px 0;
+  transition: 0.4s;
+}
+
+.carousel-title {
+  font-family: SF Pro Text;
+  font-size: 16px;
+  font-weight: 600;
+  letter-spacing: -0.165px;
+  margin-top: 7px;
+  transform: 0.4s;
+  
+}
+
+.carousel-img {
+  height: 120px;
+  width: 120px;
+  border-radius: 10px;
+}
