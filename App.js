@@ -1,7 +1,7 @@
 import '../styles/App.css'
-import Carousel from './Carousel'
-import Switch from './Switch'
-import { ThemeContext } from '../context/ThemeContext'
+import Carousel from './src/components/Carousel'
+import Switch from './src/components/Switch'
+import { ThemeContext } from './src/context/ThemeContext'
 import { useContext } from 'react'
 
 function App() {
