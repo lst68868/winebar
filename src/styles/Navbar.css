@@ -1,21 +1,23 @@
 .navbar {
-    width: 393px; /* Setting a fixed width */
+    width: 393px;
     height: 118px;
     display: flex;
     justify-content: flex-start;
     align-items: center;
     position: sticky;
     top: 0;
-    background: var(--site-background-pink, #FFF9F7); /* Setting the background color */
-    flex-shrink: 0; /* Preventing the navbar from shrinking if space is limited */
+    background: var(--site-background-pink, #FFF9F7);
+    flex-shrink: 0;
     padding: 0 20px;
-}
+  }
+  
 
 
 .logo {
     /* Add your logo styles here */
     margin-right: 20px; /* Add some space between logo and title */
-    width: 250px;
+    width: 233px;
+    height: 38px;
 }
 
 .titlecard {

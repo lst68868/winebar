@@ -1,29 +1,27 @@
-import React, { useContext } from 'react'
-import { Link } from 'react-router-dom'
-import '../styles/Navbar.css'
-import Switch from './Switch'
-import { ThemeContext } from '../context/ThemeContext'
-import logoDarkMode from '../assets/Logo Dark Mode.png'
-import logo from '../assets/Winebar-Logo.png'
+import React, { useContext } from 'react';
+import { Link } from 'react-router-dom';
+import '../styles/Navbar.css';
+import Switch from './Switch';
+import { ThemeContext } from '../context/ThemeContext';
+import logoDarkMode from '../assets/Logo Dark Mode.png';
+import logo from '../assets/Winebar-Logo.png';
 
 function Navbar() {
-  const { theme } = useContext(ThemeContext)
-  return (
-    // <div className="flex justify-between items-center px-4 py-2">
-    <div className="w-full flex justify-between items-center px-4 py-2">
+  const { theme } = useContext(ThemeContext);
 
-      <Link to="/">
-        <img className='w-1/2 h-auto'
-          src={
-            theme == 'dark'
-              ? logoDarkMode
-              : logo
-          }
-        />
-      </Link>
+  return (
+    <nav className="navbar">
+      <div className="logo">
+        <Link to="/">
+          <img
+            src={theme === 'dark' ? logoDarkMode : logo}
+            alt="Logo"
+          />
+        </Link>
+      </div>
       <Switch />
-    </div>
-  )
+    </nav>
+  );
 }
 
-export default Navbar
+export default Navbar;
