@@ -3,8 +3,10 @@ import { Routes, Route } from "react-router-dom";
 import React, { useContext } from "react";
 import Navbar from "./Navbar";
 import Footer from "./Footer";
+import Carousel from './Carousel'
+import Switch from './Switch'
+import FullCard from './FullCard'
 import LandingPage from "../pages/LandingPage";
-import Switch from "./Switch";
 import { ThemeContext } from "../context/ThemeContext";
 function App() {
   const { theme } = useContext(ThemeContext);
@@ -16,6 +18,7 @@ function App() {
           <Route path="/" element={<LandingPage />} />
         </Routes>
         <Switch />
+         <FullCard />
       </div>
       <Footer />
     </>
