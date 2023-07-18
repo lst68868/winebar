@@ -1,9 +1,13 @@
-import "../styles/App.css";
+import React from 'react';
+import '../styles/App.css';
+
+import Navbar from './Navbar'; // Update this to match the actual path to your Navbar.js file
 
 function App() {
   return (
     <div className="App">
-      <h1>APP!</h1>
+      <Navbar />
+      {/* Your other components here */}
     </div>
   );
 }

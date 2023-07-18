@@ -1,7 +1,14 @@
-import React from "react";
+import React from 'react';
+import '../styles/Navbar.css';
 
-function Navbar() {
-  return <div>Navbar</div>;
-}
+const Navbar = () => {
+  return (
+    <nav className="navbar">
+      <div className="logo">Logo Here</div> 
+      <div className="titlecard">Grape Escape</div>
+      <button className="toggle-button"></button>
+    </nav>
+  );
+};
 
 export default Navbar;
