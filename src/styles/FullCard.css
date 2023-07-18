@@ -6,6 +6,11 @@
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2)
   }
 
+  .dark .container {
+
+    background-color: black;
+    transition: 0.4s;
+  }
   
   
   .image-container {
@@ -70,7 +75,7 @@
     letter-spacing: -0.165px;
     padding-left: 20px;
     margin: 10px;
-    text-indent: -20px; /* Add this line to remove the indentation */
+  /* Add this line to remove the indentation */
   }
   
   
@@ -91,6 +96,29 @@
         border: none; /* Remove border */
         outline: none; /* Remove outline */
         cursor: pointer;
+        font-family: Amico;
+        font-size: 14px;
+        font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    letter-spacing: -0.165px;
       }
       
+      .dark .button {
+        width: 127px;
+        height: 28px;
+        flex-shrink: 0;
+        border-radius: 100px;
+        background: var(--dark-mode-button-pink, #FF6C8F);
+        color: black; /* Set text color to white */
+        border: none; /* Remove border */
+        outline: none; /* Remove outline */
+        cursor: pointer;
+        font-family: Amico;
+        font-size: 14px;
+        font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    letter-spacing: -0.165px;
+      }
  
