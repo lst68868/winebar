@@ -1,11 +1,19 @@
-import "../styles/App.css";
+import { Routes, Route } from "react-router-dom";
+import React, { useContext } from "react";
+import Navbar from '../components/Navbar';
+import Footer from '../components/Footer';
+import LandingPage from '../pages/LandingPage';
+import '../styles/App.css';
 
 function App() {
   return (
-    <div className="App">
-      <h1>APP!</h1>
-      <h2>APP!</h2>
-    </div>
+    <>
+    <Navbar />
+    <Routes>
+    <Route path="/" element={<LandingPage />} />
+    </Routes>
+    <Footer />
+    </>
   );
 }
 

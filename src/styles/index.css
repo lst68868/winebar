@@ -1,11 +1,77 @@
 @import "./fonts.css";
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --pink:  #FFF0EE;
+  --rose: #AA0028;
+  --grey: #D9D9D9;
+  --dkgrey: #7D7D7D;
+
+}
+
+/* fonts */
+.cocogoose {
+  font-family: "Cocogoose-Pro-Semilight-trial";
+}
+
+.amiko-bold {
+  font-family: "Amiko-Bold";
+}
+
+.amiko-semi {
+  font-family: "Amiko-SemiBold";
+}
+
+.amiko-reg {
+  font-family: "Amiko-Regular";
+}
 
 body {
   margin: 0;
-  font-family: "Cocogoose Pro Semilight";
+  /* font-family: "Cocogoose-Pro-Semilight-trial"; */
 }
 
 h1 {
-  font-family: "Amiko-SemiBold";
-  color: red;
+  /* font-family: "Amiko-SemiBold"; */
+  color: var(--rose);
 }
+
+#root{
+  background-color: var(--pink);
+  min-height: 100vh;
+}
+
+.pink-bg {
+  background-color: var(--pink);
+}
+
+.text-rose {
+  color: var(--rose);
+}
+
+.rose-bg {
+  background-color: var(--rose);
+}
+
+.text-dkgrey {
+  color: var(--dkgrey);
+}
+
+/* Table Cell Card */
+#table-cell {
+  margin-left: 1rem;
+  margin-right: 1rem;
+}
+
+#table-cell .custom-border {
+  border-bottom: 1px solid var(--grey);
+  width: 100%;
+}
+
+#split-cell .halves {
+  max-width: 170px;
+}
+
+
